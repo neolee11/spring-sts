@@ -7,7 +7,7 @@
 <title>Title</title>
 </head>
 <body>
-	<%-- <h1>${greeting}</h1> --%>
-	test greeting 1
+	<h1>${greeting}</h1>
+	
 </body>
 </html>
