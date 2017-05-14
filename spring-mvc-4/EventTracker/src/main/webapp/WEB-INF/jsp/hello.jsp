@@ -8,6 +8,6 @@
 </head>
 <body>
 	<h1>${greeting}</h1>
-	test
+	test 1
 </body>
 </html>
