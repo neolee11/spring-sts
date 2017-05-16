@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.boot.ShipwreckControllerWebIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.637 sec <<< FAILURE! - in com.boot.ShipwreckControllerWebIntegrationTest
+testListAll(com.boot.ShipwreckControllerWebIntegrationTest)  Time elapsed: 0.562 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: "[]"
+     but: was "[{\"id\":1,\"name\":\"test\",\"description\":\"test\",\"condition\":\"bad\",\"depth\":null,\"latitude\":null,\"longitude\":null,\"yearDiscovered\":1222}]"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.boot.ShipwreckControllerWebIntegrationTest.testListAll(ShipwreckControllerWebIntegrationTest.java:36)
+
